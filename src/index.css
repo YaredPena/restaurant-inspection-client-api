@@ -1,0 +1,52 @@
+/* index.css */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.872);
+    color: white;
+    padding: 10px 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    font-size: 36px;
+    font-weight: 500; 
+  }
+  
+  .content {
+    margin-top: 70px; 
+  }
+
+  .search {
+    margin: 20px auto;
+    padding: 10px; 
+    border-radius: 20px; 
+    border: none;
+    width: 300px; 
+  }
+  
+  .restaurant {
+    background-color: #dbd9d9d1; 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .restaurant-header {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #000; 
+    font-weight: bold; 
+  }
+
+  .restaurant-data div {
+    margin-bottom: 5px; 
+  }
+  
